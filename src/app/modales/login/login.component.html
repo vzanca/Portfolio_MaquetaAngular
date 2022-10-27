@@ -1,0 +1,79 @@
+
+
+<!-- Modal para login-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title flingreso" id="exampleModalLabel">Ingresar</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+
+<!-- Formulario login --> 
+<div class="modal-body bingreso">
+  <div class="mb-3 row fingreso">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control mingrese" id="staticEmail" value ="Ingrese su Email">
+    </div>
+  </div>
+  <div class="mb-3 row fingreso">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword">
+    </div>
+  </div>
+</div>
+
+<div class="modal-footer justify-content-center">
+  <a routerLink="/dashboard">  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Iniciar sesion</button></a>
+</div>
+
+<div class="modal-footer reg">
+  <i>Si no tenes cuenta registrate</i>
+  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-secondary">Registrarse </button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal para Registro-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title flingreso" id="exampleModalLabel">Registro</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+ 
+  
+  <!-- Formulario Registro --> 
+  <div class="modal-body bingreso">
+    <div class="mb-3 row fingreso">
+      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control mingrese" id="staticEmail" value ="Ingrese su Email">
+      </div>
+    </div>
+    <div class="mb-3 row fingreso">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer justify-content-center">
+    <button type="button" class="btn btn-secondary">Registrar datos</button>
+  </div>
+
+  <div class="modal-footer reg">
+    <i>Si ya tenes cuenta Inicia sesion</i>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-secondary">Ingresar</button>
+  </div>
+  </div>
+ </div>
+</div>
+

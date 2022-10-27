@@ -1,0 +1,10 @@
+/*Color icono*/
+.fa-solid.fa-user-lock.fa-2xl{
+    color: white;
+}
+
+/*Colores al tocar icono*/
+.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgb(247, 223, 255);
+}
+

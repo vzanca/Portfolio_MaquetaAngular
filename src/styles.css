@@ -1,0 +1,149 @@
+/*Navbar*/
+.navbar.navbar-expand-lg{
+    background-color:rgb(99, 53, 99);
+}
+
+
+/*Margen del banner*/
+.banner{
+    margin-top:8%;
+}
+
+/*Titul portfolio*/
+.titulob{
+    text-align:center;
+    color: rgb(77, 9, 77);
+    margin-top: -18%;
+    margin-bottom: 18%;
+  }
+
+/*Formulario login/logout*/
+.modal-title.flingreso{
+    color: rgb(160, 56, 117);
+}
+
+/*Subtitulo, nombre, perfil*/
+
+.subtitu{
+    text-align: center;
+    color: rgb(237, 180, 245);
+    font-size: 40px;
+}
+
+.titulor{
+    text-align: center;
+    color: rgb(237, 180, 245);
+    font-size: 20px;
+}
+
+.acercademi{
+    color:rgb(240, 182, 219);
+}
+
+.card.mat-card{
+    border-color: #d4a7c7;
+    border-radius: 150px;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: #5e133c;
+}
+
+section.perfil{
+  padding-left: -22rem !important;
+  /*background-image: url("../img/img_prueba_5.jpg");*/
+  background-size: cover;   
+  color: rgb(201, 99, 187);
+}
+
+section.experiencia{
+    margin-top: 10%;
+     /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);   
+}
+
+section.educacion{
+    margin-top: 5%;
+     /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.habilidades{
+    margin-top: 5%;
+   /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.proyectos{
+    margin-top: 5%;
+ /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.cv{
+    margin-top: 5%;
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+    margin-left: 25rem;
+}
+
+
+/*Barra de progreso*/
+.progress-bar{
+    --bs-progress-bar-bg: rgb(164, 139, 187);
+    color: antiquewhite;
+    text-align: center;
+    font-size: medium;    
+}
+
+
+
+/*Transparencia y linea del recuadro de iconos*/
+.list-group-item{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-width:"";
+}
+
+/*Color tarjeta*/
+.card.mb-3{
+    color:  rgb(92, 37, 92);
+    border-color: rgb(126, 79, 108);
+    background-color:floralwhite;
+}
+
+/*Boton secciones guardar-login-logout*/
+.btn.btn-secondary{
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 72, 103);    
+}
+
+.btn.btn-secondary:hover{
+    color:rgb(224, 197, 224);
+}
+
+.boton_formulario{
+    padding: 20px;
+}
+
+.reg{
+    color: rgb(199, 196, 199);
+}
+
+/*Botones edicion*/
+
+.fa-solid.fa-circle-xmark{
+    color: grey;
+}
+
+.fa.fa-pen{
+    color: grey;
+}
+
+.btn.btn-dark{
+    background-color:grey;
+    border-color:grey;
+    margin-right: 1rem;
+}

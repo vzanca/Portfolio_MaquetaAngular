@@ -1,0 +1,10 @@
+/*Color de los iconos redes*/
+.fa-solid.fa-user.fa-2xl{
+    color: white;
+}
+
+
+/*Colores al tocar icono redes*/
+.fa-solid.fa-user.fa-2xl:hover{
+    color: rgb(247, 223, 255);
+}

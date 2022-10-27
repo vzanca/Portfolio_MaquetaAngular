@@ -1,0 +1,9 @@
+/*Color  icono*/
+.fa-solid.fa-address-card.fa-xl{
+    color: white;
+}
+
+/*Colore al tocar icono*/
+.fa-solid.fa-address-card.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}

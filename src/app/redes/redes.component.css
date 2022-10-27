@@ -1,0 +1,33 @@
+
+
+/*Color de los iconos redes*/
+.fa-brands.fa-square-facebook.fa-xl,
+.fa-brands.fa-square-instagram.fa-xl,
+.fa-brands.fa-square-twitter.fa-xl,
+.fa-brands.fa-square-github.fa-xl,
+.fa-solid.fa-user-lock.fa-2xl,
+.fa-solid.fa-user.fa-2xl,
+.fa-solid.fa-address-card.fa-xl{
+    color: white;
+}
+
+/*Colores al tocar icono redes*/
+.fa-brands.fa-square-facebook.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-instagram.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-twitter.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-github.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-solid.fa-user-lock.fa-2xl:hover,.fa-solid.fa-user.fa-2xl:hover{
+    color: rgb(247, 223, 255);
+}
+
+.fa-solid.fa-address-card.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
